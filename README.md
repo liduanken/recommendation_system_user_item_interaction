@@ -1,3 +1,6 @@
 # Recommendation System for Movie Recommendation
 ## Introduction
 This project introduces a hybrid recommendation system that combines collaborative filtering with content-based techniques. Using item features and an open-source LLM, dense semantic embeddings from metadata (descriptions, categories, tags) enhance recommendations. Integrating these embeddings with user-item interactions boosts personalization, especially for cold-start items or those with limited history. This approach leverages new infrastructure and tools for better recommendations.
+
+## Data Visualisation
+![Figure 1: Distribution of Move Ratings: The chart illustrates the distribution of movie ratings, with the x-axis representing rating values (typically ranging from 1 to 5) and the y-axis indicating their frequency. The ratings exhibit an approximately normal distribution, characterized by a higher concentration of mid-range scores and fewer occurrences of extreme ratings at both ends of the scale.](./figs/dist_movie_rat.png)
